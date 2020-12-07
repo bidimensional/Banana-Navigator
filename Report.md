@@ -36,7 +36,6 @@ Episode 1300	Average Score: 14.38
 
 Environment Solved.
 ```
-Reference-style: 
 ![graph]
 
 [graph]: https://raw.githubusercontent.com/bidimensional/Banana-Navigator/main/Screenshot_from_2020-12-02_12.01.52.png
