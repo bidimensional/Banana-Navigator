@@ -27,7 +27,7 @@ This has been implemented using a Dueling Network Architecture with Epsilon-Gree
 ### Repository Contents
 
 - **Navigation.ipynb** - this is the all-in-one notebook to train and solve the project
-- **model.pt** - final saved weights after training. I considered the problem solved once the Average Score reached 20.
+- **model.pt** - final saved weights after training. I considered the problem solved once the Average Score reached 20, however I capped the number of episodes to 2000 for the training as that was always passing the threshold for the purpose of the project of 13.
 
 
 ### Instructions
