@@ -29,6 +29,14 @@ The architecture is very simple:
     - Layer 1 (ReLU Activated) :  64 IN / 32 OUT
     - Layer 2:                    32 IN / 1 OUT
 
+
+### Learning algorithm
+The agent learns through iterations of the episodic task until the average score is achieved or a maximum number of episode has been reached. It is using an epsilon-greedy decay, from eps_start down to a bottom limit as defined by the eps_end parameter (see below).
+
+Adam is used as an optimizer using the LR specified below.
+
+A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana and these values are averaged over 100 episodes to assess the average score.
+
 ### Hyperparameters
 These are the parameters I used. They are pretty standard and really haven't played around them too much, with the exception of the Larning Rate is one I had to shrink as the agent wasn't learning initially. This smaller value helped.
 
