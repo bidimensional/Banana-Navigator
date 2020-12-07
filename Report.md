@@ -19,7 +19,7 @@ My code has a cap of 15 for the Avg Score and 2000 episodes, but all my executio
 This has been implemented using a Dueling Network Architecture with Epsilon-Greedy policy and an Experience Replay.
 
 ### Model Architecture
-The model architecture for the Dueling DQN I implemented is quite straightforward and it is working well in practice, and you can read the research paper at the following address: https://arxiv.org/pdf/1511.06581.pdf
+The model architecture for the Dueling DQN I implemented is quite straightforward and it is working well in practice. It is based on the findings of the original research paper at the following address: https://arxiv.org/pdf/1511.06581.pdf
 
 The architecture is very simple:
   - **1 Input Layer**
