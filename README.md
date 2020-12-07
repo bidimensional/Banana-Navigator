@@ -12,7 +12,9 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 - **`2`** - turn left.
 - **`3`** - turn right.
 
-The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes. I actually stopped when I reached an Average Score of 20.
+The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
+
+My code has a cap of 15 for the Avg Score and 2000 episodes, but all my executions passed the threshold of 13.
 
 This has been implemented using a Dueling Network Architecture with Epsilon-Greedy policy and an Experience Replay.
 
@@ -27,7 +29,7 @@ This has been implemented using a Dueling Network Architecture with Epsilon-Gree
 ### Repository Contents
 
 - **Navigation.ipynb** - this is the all-in-one notebook to train and solve the project
-- **model.pt** - final saved weights after training. I considered the problem solved once the Average Score reached 20, however I capped the number of episodes to 2000 for the training as that was always passing the threshold for the purpose of the project of 13.
+- **model.pt** - final saved weights after training. This has reached an average score 14.38 after 13.000 episodes.
 
 
 ### Instructions
