@@ -32,5 +32,5 @@ This has been implemented using a Dueling Network Architecture with Epsilon-Gree
 
 ### Instructions
 
-Follow the instructions in `Navigation.ipynb` to train and visualize the score improvements over time.
+Follow all the steps in `Navigation.ipynb` to train and visualize the score improvements over time.
 
