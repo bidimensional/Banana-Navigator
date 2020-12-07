@@ -32,7 +32,7 @@ This has been implemented using a Dueling Network Architecture with Epsilon-Gree
 - **model.pt** - final saved weights after training. This has reached an average score 14.38 after 13.000 episodes.
 
 ### Hyperparameters
-These are the parameters I used. They are pretty standard and really played around them too much, with the exception of the Larning Rate is one I had to shrink as the agent wasn't learning initially. This smaller value helped.
+These are the parameters I used. They are pretty standard and really haven't played around them too much, with the exception of the Larning Rate is one I had to shrink as the agent wasn't learning initially. This smaller value helped.
 
 ### Agent
 BUFFER_SIZE = int(1e5)  \
