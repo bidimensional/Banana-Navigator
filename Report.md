@@ -18,6 +18,30 @@ My code has a cap of 15 for the Avg Score and 2000 episodes, but all my executio
 
 This has been implemented using a Dueling Network Architecture with Epsilon-Greedy policy and an Experience Replay.
 
+### My results
+```
+Episode 100	Average Score: 0.08
+Episode 200	Average Score: 1.09
+Episode 300	Average Score: 3.11
+Episode 400	Average Score: 6.50
+Episode 500	Average Score: 9.30
+Episode 600	Average Score: 10.68
+Episode 700	Average Score: 10.52
+Episode 800	Average Score: 8.71
+Episode 900	Average Score: 10.75
+Episode 1000	Average Score: 12.56
+Episode 1100	Average Score: 13.64
+Episode 1200	Average Score: 14.47
+Episode 1300	Average Score: 14.38
+
+Environment Solved.
+```
+Reference-style: 
+![logo]
+
+[graph]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 
+
+
 ### Model Architecture
 The model architecture for the Dueling DQN I implemented is quite straightforward and it is working well in practice. It is based on the findings of the original research paper at the following address: https://arxiv.org/pdf/1511.06581.pdf
 
