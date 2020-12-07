@@ -30,6 +30,5 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### Instructions
 
-Follow the instructions in `Navigation.ipynb` to get started with training the agent!  
-When done execute `Navigation-Viewer.ipynb` to view the trained model results.
+Follow the instructions in `Navigation.ipynb` to train and visualize the score improvements over time.
 
