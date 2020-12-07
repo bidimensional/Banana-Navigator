@@ -31,6 +31,16 @@ This has been implemented using a Dueling Network Architecture with Epsilon-Gree
 - **Navigation.ipynb** - this is the all-in-one notebook to train and solve the project
 - **model.pt** - final saved weights after training. This has reached an average score 14.38 after 13.000 episodes.
 
+### Hyperparameters
+These are the parameters I used. They are pretty standard, the Learning Rate is one I had to fine tune as the agent wasn't learning initially. This smaller value helped.
+
+BUFFER_SIZE = int(1e5)  
+BATCH_SIZE = 64  
+GAMMA = 0.99  
+TAU = 1e-3  
+LR = 0.0001 
+UPDATE_EVERY = 10 
+
 
 ### Instructions
 
