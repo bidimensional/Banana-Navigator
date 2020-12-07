@@ -31,7 +31,7 @@ The architecture is very simple:
 
 
 ### Learning algorithm
-The agent learns through iterations of the episodic task until the average score is achieved or a maximum number of episode has been reached. It is using an epsilon-greedy decay, from eps_start down to a bottom limit as defined by the eps_end parameter (see below).
+The agent learns through iterations of the episodic task until the average score is achieved or a maximum number of episodes has been reached. It is using  epsilon-greedy decay to always keep a degree of exploration, from eps_start down to a bottom limit as defined by the eps_end parameter (see below).
 
 Adam is used as an optimizer using the LR specified below.
 
