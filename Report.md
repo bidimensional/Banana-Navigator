@@ -18,6 +18,17 @@ My code has a cap of 15 for the Avg Score and 2000 episodes, but all my executio
 
 This has been implemented using a Dueling Network Architecture with Epsilon-Greedy policy and an Experience Replay.
 
+### Model Architecture
+The model architecture for the Dueling DQN I implemented is quite straightforward and it is working well in practice, and you can read the research paper at the following address: https://arxiv.org/pdf/1511.06581.pdf
+
+The architecture is very simple:
+  - **1 Input Layer**
+    - 37 IN / 64 OUT)
+    
+  - **Action advantage** and **Stage value** 
+    - Layer 1 (ReLU Activated) :  64 IN / 32 OUT
+    - Layer 2:                    32 IN / 1 OUT
+
 ### Hyperparameters
 These are the parameters I used. They are pretty standard and really haven't played around them too much, with the exception of the Larning Rate is one I had to shrink as the agent wasn't learning initially. This smaller value helped.
 
