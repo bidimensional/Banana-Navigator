@@ -36,11 +36,10 @@ These are the parameters I used. They are pretty standard, the Learning Rate is 
 
 BUFFER_SIZE = int(1e5)  
 BATCH_SIZE = 64  
-GAMMA = 0.99  
+GAMMA = 0.99 
 TAU = 1e-3  
-LR = 0.0001
-UPDATE_EVERY = 10 
-
+LR = 0.0001 
+UPDATE_EVERY = 10  
 
 ### Instructions
 
