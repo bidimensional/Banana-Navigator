@@ -43,7 +43,7 @@ To set up your python environment to run the code in this repository, follow the
 	activate drlnd
 	```
 	
-3. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
+3. Clone the repository (if you haven't already!) then, install several dependencies.
 ```bash
 git clone https://github.com/bidimensional/Banana-Navigator.git
 cd Banana-Navigator
