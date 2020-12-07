@@ -31,11 +31,11 @@ The architecture is very simple:
 
 
 ### Learning algorithm
-The agent learns through iterations of the episodic task until the average score is achieved or a maximum number of episodes has been reached. It is using  epsilon-greedy decay to always keep a degree of exploration, from eps_start down to a bottom limit as defined by the eps_end parameter (see below).
+The agent learns maximising the reward it gets (+1 for each yellow banana, -1 for each blue banana) through iterations of the episodic task until the average score of 13 and above is achieved or a maximum number of episodes has been reached. It is using  epsilon-greedy decay to always keep a degree of exploration, from eps_start down to a bottom limit as defined by the eps_end parameter (see below).
 
 Adam is used as an optimizer using the LR specified below.
 
-A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana and these values are averaged over 100 episodes to assess the average score.
+The training creates a **model.pt** when successful that can be used to restore the weights in the neural network at later stage to let the agent interact with the world.
 
 ### Hyperparameters
 These are the parameters I used. They are pretty standard and really haven't played around them too much, with the exception of the Larning Rate is one I had to shrink as the agent wasn't learning initially. This smaller value helped.
