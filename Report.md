@@ -53,6 +53,8 @@ eps_start=1.0 \
 eps_end=0.01 \
 eps_decay=0.995 
 
-
+### Future research
+As I experienced high variance in the results, the first thing I would fine tune are the hyperparameters, in particular the Learning Rate and see how the train preforms.
+The Neural Network used for the model is also very simple, and that would be the next area I would investigate, to see whether adding more neurons and/or more layers helps the agent learning more complex strategies. 
 
 
